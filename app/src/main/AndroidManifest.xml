@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hufs.cdt">
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".StartActivity"/>
+        <activity android:name=".ChatActivity"/>
+        <activity android:name=".MainActivity">
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="u9zcc3txnl" />
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="5e7ce2cdb889e93f04348b2e054f47e4"  />
+
+        <activity android:name=".Post"/>
+        <activity android:name=".Mypage"/>
+        <activity android:name=".Search"/>
+        <activity android:name=".Search_result" />
+        <activity android:name=".FindView"/>
+        <activity android:name=".Review"/>
+        <activity android:name=".Login"/>
+
+
+    </application>
+
+</manifest>

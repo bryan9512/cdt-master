@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/room_img"
+            android:layout_width="369dp"
+            android:layout_height="234dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:maxWidth="369dp"
+            android:maxHeight="234dp" />
+
+        <Button
+            android:layout_width="369dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:text="사진선택"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="369dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:text="주소"
+                android:textColor="#111010"
+                android:textSize="23sp" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="369dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:text="가격"
+                android:textColor="#111010"
+                android:textSize="23sp" />
+
+            <EditText
+                android:id="@+id/editText6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="369dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:text="층수"
+                android:textColor="#111010"
+                android:textSize="23sp" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="369dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:text="방크기"
+                android:textColor="#111010"
+                android:textSize="23sp" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="369dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:text="옵션"
+                android:textColor="#111010"
+                android:textSize="23sp" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="369dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:text="관리비"
+                android:textColor="#111010"
+                android:textSize="23sp" />
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="369dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:text="주차비"
+                android:textColor="#111010"
+                android:textSize="23sp" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="369dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:text="임대기간"
+                android:textColor="#111010"
+                android:textSize="23sp" />
+
+            <EditText
+                android:id="@+id/editText8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="달력으로 넘어가는거 구현하기" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="369dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:text="입주가능일"
+                android:textColor="#111010"
+                android:textSize="23sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="즉시입주" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="날짜협의" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="직졉입력" />
+
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="369dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="설명" />
+
+        <Button
+            android:id="@+id/post_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="open"
+            android:text="확인" />
+
+
+    </LinearLayout>
+
+</ScrollView>
