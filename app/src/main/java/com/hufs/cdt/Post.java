@@ -108,6 +108,7 @@ public class Post extends AppCompatActivity {
         mPostReference.updateChildren(childUpdates);
     }
 
+    
 
 
     public void getFirebaseDatabase(){
